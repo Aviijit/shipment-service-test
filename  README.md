@@ -89,7 +89,7 @@ The fastest way to run the service. No Java or Gradle installation required.
  
 ```bash
 git clone https://github.com/Aviijit/shipment-service-test.git
-cd shippio-csv-import
+cd shipment-service-test
 ```
  
 ### Step 2 — Start everything
