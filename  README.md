@@ -88,7 +88,7 @@ The fastest way to run the service. No Java or Gradle installation required.
 ### Step 1 — Clone the repository
  
 ```bash
-git clone https://github.com/your-username/shippio-csv-import.git
+git clone https://github.com/Aviijit/shipment-service-test.git
 cd shippio-csv-import
 ```
  
