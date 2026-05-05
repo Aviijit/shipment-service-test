@@ -17,13 +17,13 @@ services:
       retries: 5
 
   app:
-    image: your-dockerhub-username/shippio-csv-import:latest  # ← from Docker Hub
-    container_name: shippio-app
+    image: yavijit1/shipment-service-app:latest  # Docker Hub image
+    container_name: shipment-app
     depends_on:
       postgres:
         condition: service_healthy
     environment:
-      SPRING_PROFILES_ACTIVE: dev
+      SPRING_PROFILES_ACTIVE: dev # available profile -> 'dev' or 'prod'
       SPRING_DATASOURCE_URL: jdbc:postgresql://postgres:5432/shippio
       SPRING_DATASOURCE_USERNAME: shippio
       SPRING_DATASOURCE_PASSWORD: shippio
