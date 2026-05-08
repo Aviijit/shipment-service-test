@@ -206,4 +206,5 @@ Key settings in `application.yaml`:
 | `spring.datasource.hikari.maximum-pool-size` | `10` | Max DB connections |
  
 ---
+
  
